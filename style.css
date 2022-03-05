@@ -1,0 +1,90 @@
+body {
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    margin: 0;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+
+h1 {
+    color: white;
+    background-color: #72e5f1;
+    font-size: 3.5em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.square {
+	width: 30%;
+    background-color: rgb(0, 0, 0);
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 40%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+.square:hover {
+    opacity: 0.4;
+}
+#colorRGB {
+    display: block;
+    font-size: 2.5em;
+}
+
+#stripe {
+    background-color: rgb(202, 194, 200);
+    height: 35px;
+    text-align: center;
+    color: black;
+}
+
+#message {
+    text-transform: uppercase;
+    /* color: #2C8E99; */
+    color: #b81414;
+    font-size: 1.5em;
+    display: inline-block;
+    width: 20%;
+}
+
+button {
+   
+    color: #2C8E99;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    background-color: rgb(202, 194, 200);
+    height: 100%;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    outline: none;
+}
+
+button:hover {
+    background-color: #2C8E99;
+    color: white;
+}
+
+.selected {
+    background-color: #2C8E99;
+    color: white;
+}
+
+
+* {
+    border: 0px solid red;
+}
